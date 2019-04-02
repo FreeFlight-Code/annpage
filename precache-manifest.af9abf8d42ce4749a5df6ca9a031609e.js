@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/annpage/static/js/runtime~main.280fced8.js"
   },
   {
-    "revision": "ae5a3c64243447081e96",
+    "revision": "cec949954fe8bac63a78",
     "url": "/annpage/static/js/main.0b2478ab.chunk.js"
   },
   {
@@ -24,11 +24,11 @@ self.__precacheManifest = [
     "url": "/annpage/static/js/2.6efc73d3.chunk.js"
   },
   {
-    "revision": "ae5a3c64243447081e96",
-    "url": "/annpage/static/css/main.f858f8ef.chunk.css"
+    "revision": "cec949954fe8bac63a78",
+    "url": "/annpage/static/css/main.3a150006.chunk.css"
   },
   {
-    "revision": "99b257aee02f5b9a014c1c1814c3a58e",
+    "revision": "ee4ef887f07b5f74d162eddc1a63a04b",
     "url": "/annpage/index.html"
   }
 ];
