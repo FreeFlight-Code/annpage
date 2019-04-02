@@ -40,7 +40,7 @@ self.__precacheManifest = [
     "url": "/annpage/static/media/ptsdwords.0b840774.jpg"
   },
   {
-    "revision": "cf29f1375168dcea599dcfd50dcd0e53",
+    "revision": "39504b6630934af7a3cce964c670fd60",
     "url": "/annpage/index.html"
   }
 ];
