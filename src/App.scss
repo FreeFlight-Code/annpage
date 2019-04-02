@@ -1,0 +1,199 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: ubuntu;
+    box-sizing: border-box;
+    --button-color: #14AECF;
+}
+h1, h4{
+    margin: 1em;
+    text-align: center;
+}
+.App{
+    max-width: 100vw;
+    font-size: 15px;
+    position: relative;
+    button{
+        display: inline;
+        padding: 1em;
+        background-color: var(--button-color);
+        color: white;
+        border: 0;
+        &:hover{
+            background-color: aquamarine;
+            color: black;
+        }
+    }
+    .clickable{
+        cursor: pointer;
+        margin: .3em;
+    }
+    background-color: rgb(58, 58, 58);
+    .header{
+        z-index: 2;
+        width: 100%;
+        position: fixed;
+        .social{
+            color: white;
+            background-color: rgb(0, 0, 0);
+            height: 3vh;
+        }
+        .nav{
+            background-color: rgb(255, 255, 255);
+            height: 7vh;
+        }
+    }
+    .mainImg{
+        height: 80vh;
+        position: relative;
+        top: 10vh;
+        #mainImgContainer{
+            position: relative;
+            height: 100%;
+            width: 100%;
+            background: rgb(104, 104, 104) url("../src/images/annette_dark.jpg") no-repeat;
+            background-blend-mode: multiply;
+            background-position: 65% 50%;
+            background-size: cover;
+            background-attachment: top left;
+        }
+        .text{
+            display: grid;
+            justify-items: center;
+            color: white;
+            position: absolute;
+            top: 12%;
+        }
+    }
+    .callMe{
+        position: relative;
+        padding: 1em 2em;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: white;
+    }
+    .direction{
+        height: 50vh;
+        color: white;
+        position: relative;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        .cardContainer{
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 3em;
+            .cardImage{
+                position: absolute;
+                margin: 0;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background: grey url('../src/images/scotland.jpg') no-repeat;
+                background-blend-mode: multiply;
+                background-position: 15% 50%;
+                background-size: cover;
+                background-attachment: top left;
+                z-index: 0;
+                &:hover{
+                    background-color: yellow;
+                    cursor: pointer;
+                }
+            }
+            *{
+                z-index: 1;
+                margin: 1em;
+            }
+            button{
+                width: fit-content;
+                background-color: transparent;
+                border: 2px solid white;
+                &:hover{
+                    background-color: white;
+                    color: black;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+    .aboutMe{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: white;
+        padding: 1em;
+        img{
+            height: 30vh;
+            width: 30vh;
+            border-radius: 50%;
+            margin: 2em;
+        }
+        div{
+            h4{
+
+            }
+            h5{
+                text-align: center;
+                color: gray;
+                margin-bottom: 1em;
+            }
+            & p:nth-child(2){
+                color: blue;
+            }
+        }
+
+    }
+}
+@media (min-width: 750px){
+    .App{
+        font-size: 20px;
+        .mainImg{
+            .text{
+                top: 42vh;
+            }
+        }
+        .aboutMe{
+            display: grid;
+            grid-template-columns: 30vw 1fr;
+            grid-gap: 1em;
+            padding: 2em;
+            background-color: white;
+            padding: 1em;
+            img{
+                margin: 0;
+                height: auto;
+                width: 100%;
+                border-radius: 50%;
+            }
+            div{
+                h4{
+    
+                }
+                h5{
+                    text-align: center;
+                    color: gray;
+                    margin-bottom: 1em;
+                }
+                p{
+    
+                }
+            }
+    
+        }
+    }
+}
+@media (min-width: 1500px){
+    .App{
+        font-size: 28px;
+        .mainImg{
+            .text{
+                top: 25%;
+            }
+        }
+    }
+}
