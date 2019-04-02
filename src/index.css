@@ -1,2 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand|Ubuntu');
-@import 'App.scss'
+@import 'App.scss';
+
+@keyframes darken {
+  from{background-color: white;}
+  to{background-color: rgb(102, 102, 102);}
+    
+}
+@keyframes slideLeft {
+  from{left: 100vw; opacity: 0}
+  to{left: 0px; opacity: 1}
+    
+}
