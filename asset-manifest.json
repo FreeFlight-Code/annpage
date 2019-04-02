@@ -1,15 +1,17 @@
 {
-  "main.css": "/annpage/static/css/main.3a150006.chunk.css",
-  "main.js": "/annpage/static/js/main.0b2478ab.chunk.js",
-  "main.js.map": "/annpage/static/js/main.0b2478ab.chunk.js.map",
+  "main.css": "/annpage/static/css/main.769decc5.chunk.css",
+  "main.js": "/annpage/static/js/main.50a35c3d.chunk.js",
+  "main.js.map": "/annpage/static/js/main.50a35c3d.chunk.js.map",
   "runtime~main.js": "/annpage/static/js/runtime~main.280fced8.js",
   "runtime~main.js.map": "/annpage/static/js/runtime~main.280fced8.js.map",
-  "static/js/2.6efc73d3.chunk.js": "/annpage/static/js/2.6efc73d3.chunk.js",
-  "static/js/2.6efc73d3.chunk.js.map": "/annpage/static/js/2.6efc73d3.chunk.js.map",
+  "static/js/2.ec93214b.chunk.js": "/annpage/static/js/2.ec93214b.chunk.js",
+  "static/js/2.ec93214b.chunk.js.map": "/annpage/static/js/2.ec93214b.chunk.js.map",
   "index.html": "/annpage/index.html",
-  "precache-manifest.af9abf8d42ce4749a5df6ca9a031609e.js": "/annpage/precache-manifest.af9abf8d42ce4749a5df6ca9a031609e.js",
+  "precache-manifest.42611d4cd976b8ac4c3cc430b744ce0d.js": "/annpage/precache-manifest.42611d4cd976b8ac4c3cc430b744ce0d.js",
   "service-worker.js": "/annpage/service-worker.js",
-  "static/css/main.3a150006.chunk.css.map": "/annpage/static/css/main.3a150006.chunk.css.map",
+  "static/css/main.769decc5.chunk.css.map": "/annpage/static/css/main.769decc5.chunk.css.map",
   "static/media/App.scss": "/annpage/static/media/scotland.4c995dc2.jpg",
-  "static/media/annette_hat.jpg": "/annpage/static/media/annette_hat.9a5b61a7.jpg"
+  "static/media/annette_hat.jpg": "/annpage/static/media/annette_hat.9a5b61a7.jpg",
+  "static/media/facebook.png": "/annpage/static/media/facebook.34531bb4.png",
+  "static/media/twitter.png": "/annpage/static/media/twitter.5dc91136.png"
 }
